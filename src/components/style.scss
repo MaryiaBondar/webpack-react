@@ -1,0 +1,16 @@
+.header-block {
+    color: brown;
+    &.error {
+        color: blue;
+    }
+
+    @media (max-width: 992px) {
+        @media (min-width: 768px) {
+            font-size: 26px;
+        }
+    }
+}
+
+
+
+
